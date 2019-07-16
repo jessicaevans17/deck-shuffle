@@ -10,3 +10,19 @@ body {
   margin: 0;
   min-height: 100%;
 }
+
+.card-deck {
+  display: flex;
+  justify-content: flex-start;
+  border: 2px solid black;
+  border-radius: 7px;
+  margin-left: 90px;
+  margin-right: 90px;
+  height: 15rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
